@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Coming Soon";
+  src: url("./fonts/ComingSoon-Regular.ttf") format("truetype");
+}
+
 .App {
   max-width: 35rem;
   margin-left: auto;
@@ -6,4 +11,37 @@
 
 .solar-system-img {
   width: 100%;
+}
+
+.planets-buttons-img {
+  width: 100%;
+}
+
+.menu-container {
+  position: relative;
+  height: 14rem;
+}
+
+input.visualization {
+  position: absolute;
+  opacity: 0;
+}
+
+.structure {
+  cursor: pointer;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 0.4rem solid cyan;
+  background-color: rgb(72, 68, 68);
+  color: azure;
+  text-align: center;
+  line-height: 4.7;
+  font-size: 1.1rem;
+  font-family: "Coming Soon";
+}
+
+.structure:has(input:checked) {
+  background-color: cyan;
 }
