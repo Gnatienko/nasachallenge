@@ -9,9 +9,14 @@ function App() {
         <div className="menu-container">
           <Radio value="Mercury" top="1.5%" left="14%" />
           <Radio value="Earth" top="1.5%" left="32%" />
-          <Radio value="Earth" top="1.5%" left="50%" />
+          <Radio value="Jupiter" top="1.5%" left="50%" />
         </div>
-        <img className="solar-system-img" src={solar_system} alt="img" />
+        <img
+          className="solar-system-img"
+          src={solar_system}
+          alt="img"
+          onClick={() => console.log(Radio.value)}
+        />
       </header>
     </div>
   )
