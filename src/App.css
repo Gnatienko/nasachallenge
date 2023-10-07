@@ -81,7 +81,6 @@ input.visualization {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 .popup_inner {
   width: 300px;
@@ -89,10 +88,24 @@ input.visualization {
   top: 25%;
   margin: auto;
   background: white;
-  padding: 10px;
+  padding: 30px;
+
+  border-radius: 35px;
+  background: linear-gradient(
+    180deg,
+    rgba(25, 114, 249, 1) 0%,
+    rgba(36, 38, 41, 0.7) 100%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
 }
 .close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 255, 0);
+  border: 0;
+  font-size: xx-large;
+  font-family: Coming Soon;
+  color: white;
 }
