@@ -1,8 +1,8 @@
 import React from "react"
 
-function Radio({ value, top, left, checked, onChange }) {
+function Radio({ value, top, left, checked, onChange, width }) {
   return (
-    <label className="structure" style={{ top, left }}>
+    <label className="structure" style={{ top, left, width }}>
       <input
         className="visualization"
         type="radio"

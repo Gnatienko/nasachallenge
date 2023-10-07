@@ -2,12 +2,12 @@
   font-family: "Coming Soon";
   src: url("./fonts/ComingSoon-Regular.ttf") format("truetype");
 }
-
+body {
+  background: var(--G, linear-gradient(180deg, #333 0%, #030303 100%));
+}
 .App {
-  max-width: 35rem;
-  margin-left: auto;
+  width: 100%;
   margin-right: auto;
-  padding: 1.5rem;
 }
 
 .solar-system-img {
@@ -23,7 +23,7 @@
 
 .menu-container {
   position: relative;
-  height: 14rem;
+  height: 24rem;
 }
 
 input.visualization {
@@ -31,17 +31,18 @@ input.visualization {
   opacity: 0;
 }
 
+.structure:has(input:checked) {
+  background: linear-gradient(#792d21, #792d21) padding-box,
+    rgba(121, 45, 33, 1) linear-gradient(60deg, #792d21, #ffffff) border-box;
+}
 .structure {
   cursor: pointer;
   position: absolute;
-  width: 15%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  background-color: rgb(72, 68, 68);
-  border-image: linear-gradient(to right, #ff0000, #0000ff) 1;
   border: 1px solid transparent;
-  background: linear-gradient(#4d3535, #fff) padding-box,
-    linear-gradient(60deg, #00f, #00e8ff) border-box;
+  background: linear-gradient(#2b2b2b, #2b2b2b) padding-box,
+    linear-gradient(60deg, #792d21, #ffffff) border-box;
   color: azure;
   text-align: center;
   font-size: 1rem;
@@ -54,12 +55,11 @@ input.visualization {
   width: 15%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  border: 0.1rem solid cyan;
   color: azure;
   text-align: center;
   font-size: 1rem;
   font-family: "Coming Soon";
-  box-shadow: 0 0 4px 2px #0ff; /* outer cyan */
+  box-shadow: 0 0 4px 2px #792d21, 0 0 6px 4px #ffffff; /* outer cyan */
 }
 .planetName {
   display: flex;
@@ -67,14 +67,11 @@ input.visualization {
   justify-content: center;
 }
 
-.structure:has(input:checked) {
-  background-color: cyan;
-}
-
 .text {
   margin: 80px;
   font-family: "Coming Soon";
   position: relative;
+  color: #f5f5f5;
 }
 
 .choose {

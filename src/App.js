@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react"
 import solar_system from "./img/solar_system.svg"
-import sun from "./img/sun.svg"
 import Popup from "./Popup"
-
+import logo from "./img/logo.svg"
 import Radio from "./Radio"
 import "./App.css"
 
@@ -28,7 +27,6 @@ function App() {
 
   const handleChange = (event) => {
     setSelectedPlanet(event.target.value)
-    console.log(selectedPlanet)
   }
 
   const planetInfo = () => {
@@ -46,35 +44,64 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img className="logo" src={logo} alt="img" />
+
         <div className="menu-container">
           <Radio
             value="Mercury"
             top="0.5%"
             left="11%"
             onChange={handleChange}
+            width="10%"
           />
-          <Radio value="Earth" top="1.5%" left="32%" onChange={handleChange} />
+          <Radio
+            value="Earth"
+            top="1.5%"
+            left="32%"
+            onChange={handleChange}
+            width="10%"
+          />
           <Radio
             value="Jupiter"
             top="1.5%"
             left="53%"
             onChange={handleChange}
+            width="12%"
           />
-          <Radio value="Uranus" top="5%" left="75%" onChange={handleChange} />
-          <Radio value="Venus" top="40%" left="21%" onChange={handleChange} />
-          <Radio value="Mars" top="43%" left="41%" onChange={handleChange} />
-          <Radio value="Saturn" top="40%" left="63%" onChange={handleChange} />
-          <Radio value="Neptune" top="47%" left="85%" onChange={handleChange} />
-          <img
-            className="sun"
-            src={sun}
-            alt="img"
-            style={{
-              left: "-5%",
-              top: "43%",
-              position: "absolute",
-              width: "25%",
-            }}
+          <Radio
+            value="Uranus"
+            top="5%"
+            left="75%"
+            onChange={handleChange}
+            width="10%"
+          />
+          <Radio
+            value="Venus"
+            top="40%"
+            left="21%"
+            onChange={handleChange}
+            width="10%"
+          />
+          <Radio
+            value="Mars"
+            top="43%"
+            left="41%"
+            onChange={handleChange}
+            width="10%"
+          />
+          <Radio
+            value="Saturn"
+            top="40%"
+            left="63%"
+            onChange={handleChange}
+            width="10%"
+          />
+          <Radio
+            value="Neptune"
+            top="47%"
+            left="85%"
+            onChange={handleChange}
+            width="10%"
           />
         </div>
         <div className="solar-system-img-container">
