@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react"
 import solar_system from "./img/solar_system.svg"
+import sun from "./img/sun.svg"
+
 import Radio from "./Radio"
 import "./App.css"
 
@@ -58,6 +60,17 @@ function App() {
           <Radio value="Mars" top="43%" left="41%" onChange={handleChange} />
           <Radio value="Saturn" top="40%" left="63%" onChange={handleChange} />
           <Radio value="Neptune" top="47%" left="85%" onChange={handleChange} />
+          <img
+            className="sun"
+            src={sun}
+            alt="img"
+            style={{
+              left: "-5%",
+              top: "43%",
+              position: "absolute",
+              width: "25%",
+            }}
+          />
         </div>
         <img className="solar-system-img" src={solar_system} alt="img" />
         <div className="text">
