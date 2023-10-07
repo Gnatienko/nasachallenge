@@ -49,59 +49,59 @@ function App() {
         <div className="menu-container">
           <Radio
             value="Mercury"
-            top="0.5%"
-            left="11%"
+            top="2%"
+            left="7%"
             onChange={handleChange}
-            width="10%"
+            width="5%"
+          />
+          <Radio
+            value="Venus"
+            top="19%"
+            left="17%"
+            onChange={handleChange}
+            width="7%"
           />
           <Radio
             value="Earth"
-            top="1.5%"
-            left="32%"
+            top="-17%"
+            left="29%"
             onChange={handleChange}
-            width="10%"
+            width="7%"
+          />
+          <Radio
+            value="Mars"
+            top="15%"
+            left="39%"
+            onChange={handleChange}
+            width="6%"
           />
           <Radio
             value="Jupiter"
-            top="1.5%"
-            left="53%"
+            top="-27%"
+            left="50%"
             onChange={handleChange}
-            width="12%"
+            width="9%"
+          />
+          <Radio
+            value="Saturn"
+            top="15%"
+            left="63%"
+            onChange={handleChange}
+            width="8%"
           />
           <Radio
             value="Uranus"
             top="5%"
             left="75%"
             onChange={handleChange}
-            width="10%"
-          />
-          <Radio
-            value="Venus"
-            top="40%"
-            left="21%"
-            onChange={handleChange}
-            width="10%"
-          />
-          <Radio
-            value="Mars"
-            top="43%"
-            left="41%"
-            onChange={handleChange}
-            width="10%"
-          />
-          <Radio
-            value="Saturn"
-            top="40%"
-            left="63%"
-            onChange={handleChange}
-            width="10%"
+            width="7%"
           />
           <Radio
             value="Neptune"
-            top="47%"
-            left="85%"
+            top="10%"
+            left="87%"
             onChange={handleChange}
-            width="10%"
+            width="7%"
           />
         </div>
         <div className="solar-system-img-container">
@@ -110,21 +110,21 @@ function App() {
             className="planet-stroke"
             style={
               selectedPlanet === "Mercury"
-                ? { left: "16.1%", top: "56%", width: "1.5%" }
+                ? { left: "16.25%", top: "47.7%", width: "1.5%" }
                 : selectedPlanet === "Venus"
-                ? { left: "19.5%", top: "52%", width: "4%" }
+                ? { left: "19.9%", top: "39.7%", width: "4%" }
                 : selectedPlanet === "Earth"
-                ? { left: "25.3%", top: "52%", width: "4.1%" }
+                ? { left: "25.4%", top: "39.7%", width: "4.1%" }
                 : selectedPlanet === "Mars"
-                ? { left: "30.3%", top: "54.4%", width: "2.3%" }
+                ? { left: "30.8%", top: "45.4%", width: "2.3%" }
                 : selectedPlanet === "Jupiter"
-                ? { left: "37.6%", top: "39%", width: "12.3%" }
+                ? { left: "37.97%", top: "10.2%", width: "12%" }
                 : selectedPlanet === "Saturn"
-                ? { left: "57.1%", top: "43.7%", width: "10.3%" }
+                ? { left: "57.7%", top: "23.1%", width: "9.7%" }
                 : selectedPlanet === "Uranus"
-                ? { left: "74.6%", top: "51.5%", width: "4.3%" }
+                ? { left: "74.9%", top: "38.5%", width: "4.3%" }
                 : selectedPlanet === "Neptune"
-                ? { left: "80.4%", top: "51.5%", width: "4.3%" }
+                ? { left: "80.7%", top: "39%", width: "4.3%" }
                 : {}
             }
           ></label>

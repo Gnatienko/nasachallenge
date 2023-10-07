@@ -1,6 +1,10 @@
 @font-face {
-  font-family: "Coming Soon";
-  src: url("./fonts/ComingSoon-Regular.ttf") format("truetype");
+  font-family: "Rubik Mono One";
+  src: url("./fonts/RubikMonoOne-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gudea";
+  src: url("./fonts/Gudea-Regular.ttf") format("truetype");
 }
 body {
   background: var(--G, linear-gradient(180deg, #333 0%, #030303 100%));
@@ -23,7 +27,7 @@ body {
 
 .menu-container {
   position: relative;
-  height: 24rem;
+  height: 10rem;
 }
 
 input.visualization {
@@ -59,7 +63,7 @@ input.visualization {
   text-align: center;
   font-size: 1rem;
   font-family: "Coming Soon";
-  box-shadow: 0 0 4px 2px #792d21, 0 0 6px 4px #ffffff; /* outer cyan */
+  box-shadow: 0 0 4px 2px #792d21, 0 0 6px 4px #ffffff;
 }
 .planetName {
   display: flex;
@@ -68,26 +72,29 @@ input.visualization {
 }
 
 .text {
-  margin: 80px;
-  font-family: "Coming Soon";
+  margin: 20px;
+  font-family: "Gudea";
   position: relative;
   color: #f5f5f5;
+  overflow: scroll;
+  height: 40vh;
 }
 
 .choose {
-  top: -1.2rem;
-  position: absolute;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   right: 1px;
-  height: 80px;
-  width: 200px;
-  border-radius: 45px;
-  font-size: x-large;
+  height: 60px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: large;
   border: 0;
-  background-color: rgb(240, 145, 28);
-  font-family: "Coming Soon";
+  background-color: #eb4f64;
+  font-family: Rubik Mono One;
   color: white;
+  position: fixed;
+  bottom: 7%;
+  right: 10%;
 }
 
 .popup {
