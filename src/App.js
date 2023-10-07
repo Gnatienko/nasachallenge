@@ -77,7 +77,31 @@ function App() {
             }}
           />
         </div>
-        <img className="solar-system-img" src={solar_system} alt="img" />
+        <div className="solar-system-img-container">
+          <img className="solar-system-img" src={solar_system} alt="img" />
+          <label
+            className="planet-stroke"
+            style={
+              selectedPlanet === "Mercury"
+                ? { left: "16.1%", top: "56%", width: "1.5%" }
+                : selectedPlanet === "Venus"
+                ? { left: "19.5%", top: "52%", width: "4%" }
+                : selectedPlanet === "Earth"
+                ? { left: "25.3%", top: "52%", width: "4.1%" }
+                : selectedPlanet === "Mars"
+                ? { left: "30.3%", top: "54.4%", width: "2.3%" }
+                : selectedPlanet === "Jupiter"
+                ? { left: "37.6%", top: "39%", width: "12.3%" }
+                : selectedPlanet === "Saturn"
+                ? { left: "57.1%", top: "43.7%", width: "10.3%" }
+                : selectedPlanet === "Uranus"
+                ? { left: "74.6%", top: "51.5%", width: "4.3%" }
+                : selectedPlanet === "Neptune"
+                ? { left: "80.4%", top: "51.5%", width: "4.3%" }
+                : {}
+            }
+          ></label>
+        </div>
         <div className="text">
           <button className="choose" onClick={() => togglePopup()}>
             Choose This trip

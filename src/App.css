@@ -13,6 +13,9 @@
 .solar-system-img {
   width: 100%;
 }
+.solar-system-img-container {
+  position: relative;
+}
 
 .planets-buttons-img {
   width: 100%;
@@ -36,6 +39,19 @@ input.visualization {
   border-radius: 50%;
   border: 0.3rem solid cyan;
   background-color: rgb(72, 68, 68);
+  color: azure;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Coming Soon";
+}
+
+.planet-stroke {
+  cursor: pointer;
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: 0.1rem solid cyan;
   color: azure;
   text-align: center;
   font-size: 1rem;
