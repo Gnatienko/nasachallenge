@@ -1,13 +1,39 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import solar_system from "./img/solar_system.svg"
-import Radio from "./radio"
+import Radio from "./Radio"
 import "./App.css"
 
 function App() {
-  const [selectedValue, setSelectedValue] = useState("")
+  const [selectedPlanet, setSelectedPlanet] = useState("Earth")
+  const [planetsData, setPlanetsData] = useState({
+    Earth: {
+      info: [],
+      activities: [],
+    },
+  })
+
+  useEffect(() => {
+    fetch("./data.json")
+      .then((response) => response.json())
+      .then((data) => setPlanetsData(data))
+      .catch((error) => console.error(error))
+  }, [])
 
   const handleChange = (event) => {
-    console.log(event.target.value)
+    setSelectedPlanet(event.target.value)
+    console.log(selectedPlanet)
+  }
+
+  const planetInfo = () => {
+    return planetsData[selectedPlanet].info.map((element) => {
+      return <p key={element}>{element}</p>
+    })
+  }
+
+  const planetActivities = () => {
+    return planetsData[selectedPlanet].activities.map((element) => {
+      return <li key={element}>{element}</li>
+    })
   }
 
   return (
@@ -29,6 +55,12 @@ function App() {
           />
         </div>
         <img className="solar-system-img" src={solar_system} alt="img" />
+        <div className="text">
+          <h1>{selectedPlanet}</h1>
+          {planetInfo()}
+          <h2>Activities</h2>
+          <ul>{planetActivities()}</ul>
+        </div>
       </header>
     </div>
   )

@@ -1,0 +1,33 @@
+{
+  "Earth": {
+    "info": ["i1", "i2"],
+    "activities": [
+      "Aurora Borealis Viewing: Witness the mesmerizing Northern Lights in places like Iceland, Norway, or Canada. These natural light displays are a breathtaking sight to behold.",
+      "Deep Sea Diving: Explore the vibrant and diverse marine life in coral reefs around the world, such as Australia's Great Barrier Reef or the Maldives.",
+      "Volcano Trekking: Hike to the summit of active volcanoes like Mount Kilimanjaro in Tanzania or Mount Vesuvius in Italy for an adrenaline-pumping adventure.",
+      "Safari in Africa: Embark on a safari in countries like Kenya, Tanzania, or South Africa to see the 'Big Five' (lion, leopard, elephant, buffalo, and rhinoceros) and other incredible wildlife.",
+      "Antarctic Expedition: Travel to the southernmost continent to witness its pristine landscapes, stunning ice formations, and unique wildlife, including penguins and seals.",
+      "Amazon Rainforest Exploration: Explore the Amazon rainforest in Peru, Brazil, or Ecuador, and encounter a vast array of plant and animal species in this lush and biodiverse environment.",
+      "Hot Air Balloon Rides: Soar above picturesque landscapes like the Cappadocia region in Turkey or the Napa Valley in California for a bird's-eye view of stunning scenery.",
+      "Northern Norway in Winter: Experience a winter wonderland by visiting places like Tromsø, Norway, where you can go dog sledding, snowmobiling, and witness the Northern Lights.",
+      "Cultural Festivals: Attend cultural festivals worldwide, such as Rio Carnival in Brazil, Diwali in India, or the Venice Carnival in Italy, to immerse yourself in local traditions and celebrations.",
+      "Historical Sites: Explore ancient wonders like the Pyramids of Giza in Egypt, Machu Picchu in Peru, or the Great Wall of China to connect with human history and marvel at architectural achievements.",
+      "Spaceport Tours: Visit spaceports like Kennedy Space Center in Florida or Baikonur Cosmodrome in Kazakhstan to witness rocket launches and learn about space exploration.",
+      "Underwater Hotel Stays: Stay in underwater hotels like the Conrad Maldives Rangali Island Resort or The Manta Resort in Tanzania for a unique underwater experience."
+    ]
+  },
+  "Mercury": {
+    "info": ["i1-", "i2-"],
+    "activities": [
+      "Solar Observation - Protected by advanced heat-resistant suits, tourists can witness the extreme temperature variations on Mercury while observing the sun from this closest planet.",
+      "Solar Kite Surfing - Take advantage of the scorching temperatures on Mercury by kite surfing on the surface, utilizing specially designed solar kites to ride the intense solar winds."
+    ]
+  },
+  "Jupiter": {
+    "info": ["i1", "i2"],
+    "activities": [
+      "Gas Cloud Skydiving - Dive into the swirling gas clouds of Jupiter with a specially designed suit, experiencing a weightless free fall before deploying a parachute and returning to a spaceship high above.",
+      "Gas Giant Exploration - Tourists can embark on spacecraft that take them deep into the cloud layers of Jupiter, offering a unique chance to witness the immense storms and mysterious features of the giant planet."
+    ]
+  }
+}
