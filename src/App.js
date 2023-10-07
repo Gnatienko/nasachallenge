@@ -92,7 +92,7 @@ function App() {
           <Radio
             value="Uranus"
             top="5%"
-            left="75%"
+            left="78%"
             onChange={handleChange}
             width="7%"
           />

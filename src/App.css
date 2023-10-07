@@ -67,7 +67,7 @@ input.visualization {
 }
 .planetName {
   display: flex;
-  padding-top: 35%;
+  padding-top: 37%;
   justify-content: center;
 }
 
@@ -78,6 +78,7 @@ input.visualization {
   color: #f5f5f5;
   overflow: scroll;
   height: 40vh;
+  margin-left: 5%;
 }
 
 .choose {
