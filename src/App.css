@@ -7,6 +7,7 @@
   max-width: 35rem;
   margin-left: auto;
   margin-right: auto;
+  padding: 1.5rem;
 }
 
 .solar-system-img {
@@ -30,16 +31,20 @@ input.visualization {
 .structure {
   cursor: pointer;
   position: absolute;
-  width: 5rem;
-  height: 5rem;
+  width: 15%;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
-  border: 0.4rem solid cyan;
+  border: 0.3rem solid cyan;
   background-color: rgb(72, 68, 68);
   color: azure;
   text-align: center;
-  line-height: 4.7;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: "Coming Soon";
+}
+.planetName {
+  display: flex;
+  padding-top: 35%;
+  justify-content: center;
 }
 
 .structure:has(input:checked) {
@@ -47,5 +52,47 @@ input.visualization {
 }
 
 .text {
+  margin: 80px;
   font-family: "Coming Soon";
+  position: relative;
+}
+
+.choose {
+  position: absolute;
+  padding-left: 40px;
+  padding-right: 40px;
+  right: 1px;
+  height: 80px;
+  width: 200px;
+  border-radius: 45px;
+  font-size: x-large;
+  border: 0;
+  background-color: rgb(240, 145, 28);
+  font-family: "Coming Soon";
+  color: white;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup_inner {
+  width: 300px;
+  position: relative;
+  top: 25%;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

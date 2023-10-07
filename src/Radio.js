@@ -11,7 +11,7 @@ function Radio({ value, top, left, checked, onChange }) {
         checked={checked}
         onChange={onChange}
       />
-      <div>{value}</div>
+      <div className="planetName">{value}</div>
     </label>
   )
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import solar_system from "./img/solar_system.svg"
 import sun from "./img/sun.svg"
+import Popup from "./Popup"
 
 import Radio from "./Radio"
 import "./App.css"
@@ -13,6 +14,10 @@ function App() {
       activities: [],
     },
   })
+  const [showPopup, setPopup] = useState(false)
+  const togglePopup = () => {
+    setPopup(!showPopup)
+  }
 
   useEffect(() => {
     fetch("./data.json")
@@ -74,6 +79,13 @@ function App() {
         </div>
         <img className="solar-system-img" src={solar_system} alt="img" />
         <div className="text">
+          <button className="choose" onClick={() => togglePopup()}>
+            Choose This trip
+          </button>
+
+          {showPopup ? (
+            <Popup text="Title" closePopup={() => togglePopup()} />
+          ) : null}
           <h1>{selectedPlanet}</h1>
           {planetInfo()}
           <h2>Activities</h2>
