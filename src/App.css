@@ -75,6 +75,7 @@ input.visualization {
 }
 
 .choose {
+  top: -1.2rem;
   position: absolute;
   padding-left: 40px;
   padding-right: 40px;

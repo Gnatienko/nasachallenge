@@ -1,6 +1,12 @@
 {
   "Earth": {
-    "info": ["i1", "i2"],
+    "info": [
+      "Earth is the only known planet to support life. It has a diverse environment with oceans, continents, and a breathable atmosphere.",
+      "Diameter: 12,742 kilometers",
+      "Distance from Sun: 149.6 million kilometers",
+      "Atmosphere: Nitrogen, oxygen, and traces of other gases",
+      "Moons: 1 (the Moon)"
+    ],
     "activities": [
       "Aurora Borealis Viewing: Witness the mesmerizing Northern Lights in places like Iceland, Norway, or Canada. These natural light displays are a breathtaking sight to behold.",
       "Deep Sea Diving: Explore the vibrant and diverse marine life in coral reefs around the world, such as Australia's Great Barrier Reef or the Maldives.",
@@ -17,21 +23,39 @@
     ]
   },
   "Mercury": {
-    "info": ["i1-", "i2-"],
+    "info": [
+      "Mercury is the closest planet to the Sun and is known for its extreme temperature variations, with scorching hot days and freezing nights.",
+      "Diameter: 4,880 kilometers",
+      "Distance from Sun: 57.9 million kilometers",
+      "Atmosphere: Thin and almost no atmosphere",
+      "Moons: None"
+    ],
     "activities": [
       "Solar Observation - Protected by advanced heat-resistant suits, tourists can witness the extreme temperature variations on Mercury while observing the sun from this closest planet.",
       "Solar Kite Surfing - Take advantage of the scorching temperatures on Mercury by kite surfing on the surface, utilizing specially designed solar kites to ride the intense solar winds."
     ]
   },
   "Jupiter": {
-    "info": ["i1", "i2"],
+    "info": [
+      "Jupiter is the largest planet in the solar system, known for its massive size and strong magnetic field. It has a turbulent atmosphere with the Great Red Spot, a giant storm.",
+      "Diameter: 139,822 kilometers",
+      "Distance from Sun: 778.5 million kilometers",
+      "Atmosphere: Hydrogen and helium with cloud bands",
+      "Moons: 79 known moons, including Io, Europa, Ganymede, and Callisto"
+    ],
     "activities": [
       "Gas Cloud Skydiving - Dive into the swirling gas clouds of Jupiter with a specially designed suit, experiencing a weightless free fall before deploying a parachute and returning to a spaceship high above.",
       "Gas Giant Exploration - Tourists can embark on spacecraft that take them deep into the cloud layers of Jupiter, offering a unique chance to witness the immense storms and mysterious features of the giant planet."
     ]
   },
   "Uranus": {
-    "info": ["i1", "i2"],
+    "info": [
+      "Uranus is an ice giant known for its extreme tilt, which causes it to rotate almost on its side. It has a pale blue-green hue and a unique ring system.",
+      "Diameter: 50,724 kilometers",
+      "Distance from Sun: 2.9 billion kilometers",
+      "Atmosphere: Hydrogen, helium, and methane",
+      "Moons: 27 known moons, including Miranda, Ariel, and Umbriel"
+    ],
     "activities": [
       "Radiation Shielded Aurora Viewing: Watch the bright radioactive auroras in Uranus' sky while wearing radiation-shielded suits and protective gear.",
       "Ice Caving Expeditions: Explore the icy caves and formations on Uranus' surface using advanced space suits and mobility devices.",
@@ -42,7 +66,13 @@
     ]
   },
   "Venus": {
-    "info": ["i1", "i2"],
+    "info": [
+      "Venus is often called Earth's 'sister planet' due to its similar size and composition. It has a thick, toxic atmosphere and extreme greenhouse effect.",
+      "Diameter: 12,104 kilometers",
+      "Distance from Sun: 108.2 million kilometers",
+      "Atmosphere: Carbon dioxide with thick clouds of sulfuric acid",
+      "Moons: None"
+    ],
     "activities": [
       "Venusian Cloud Surfing: Ride the thick clouds of Venus using specially designed cloud-surfing equipment that can withstand extreme heat and pressure.",
       "Volcanic Cave Exploration: Explore the labyrinthine network of volcanic caves and tunnels on Venus' surface, protected by advanced heat-resistant suits.",
@@ -53,7 +83,13 @@
     ]
   },
   "Saturn": {
-    "info": ["i1", "i2"],
+    "info": [
+      "Saturn is famous for its stunning ring system, which consists of icy particles and debris. It is a gas giant with a complex and beautiful set of rings.",
+      "Diameter: 116,464 kilometers",
+      "Distance from Sun: 1.4 billion kilometers",
+      "Atmosphere: Hydrogen and helium with cloud bands",
+      "Moons: 82 known moons, including Titan, Enceladus, and Mimas"
+    ],
     "activities": [
       "Ring Touring: Take a tour through Saturn's stunning ring system using specially designed spacecraft with panoramic views.",
       "Titanic Submersions: Dive into the methane and ethane seas of Saturn's largest moon, Titan, in advanced submersibles built for extreme conditions.",
@@ -64,7 +100,13 @@
     ]
   },
   "Neptune": {
-    "info": ["i1", "i2"],
+    "info": [
+      "Neptune is the farthest known planet from the Sun and is often referred to as the 'Blue Giant.' It has a dynamic atmosphere with fast-moving storms and a prominent dark spot.",
+      "Diameter: 49,244 kilometers",
+      "Distance from Sun: 4.5 billion kilometers",
+      "Atmosphere: Hydrogen, helium, and methane",
+      "Moons: 14 known moons, including Triton and Nereid"
+    ],
     "activities": [
       "Neptunian Submarine Expeditions: Explore the deep oceans of Neptune's moon Triton in advanced submersibles designed for the extreme cold and pressure.",
       "Methane Iceberg Sailing: Navigate the methane icebergs that float on the icy seas of Triton, Neptune's largest moon.",
@@ -75,7 +117,13 @@
     ]
   },
   "Mars": {
-    "info": ["i1", "i2"],
+    "info": [
+      "Mars is often called the 'Red Planet' due to its reddish appearance. It has a thin atmosphere and is known for its surface features, including Olympus Mons, the largest volcano in the solar system.",
+      "Diameter: 6,779 kilometers",
+      "Distance from Sun: 227.9 million kilometers",
+      "Atmosphere: Thin atmosphere with carbon dioxide",
+      "Moons: 2 (Phobos and Deimos)"
+    ],
     "activities": [
       "Martian Sandboarding - Experience the thrill of sandboarding on Mars' vast sand dunes, with the planet's lower gravity making it an exhilarating adventure.",
       "Martian Rover Tours - Visitors can explore the Martian surface in specially designed rovers, guided by expert astronauts or AI systems. They can visit iconic Martian landmarks like Valles Marineris and Olympus Mons."
