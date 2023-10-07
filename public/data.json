@@ -32,19 +32,47 @@
   },
   "Uranus": {
     "info": ["i1", "i2"],
-    "activities": ["act-1"]
+    "activities": [
+      "Radiation Shielded Aurora Viewing: Watch the bright radioactive auroras in Uranus' sky while wearing radiation-shielded suits and protective gear.",
+      "Ice Caving Expeditions: Explore the icy caves and formations on Uranus' surface using advanced space suits and mobility devices.",
+      "Subglacial Lake Exploration: Investigate subglacial lakes on Uranus, which may exist beneath thick layers of ice, using underwater vehicles.",
+      "Aerial Glider Adventures: Glide through Uranus' thick atmosphere using aerial gliders or hang gliders designed for the unique conditions.",
+      "Radioactive Mineral Prospecting: Search for valuable radioactive minerals and resources on Uranus' surface that could be valuable for future space industries.",
+      "Extreme Ice Skating: Organize ice skating on Uranus' icy terrain with specialized radiation-resistant skates and equipment."
+    ]
   },
   "Venus": {
     "info": ["i1", "i2"],
-    "activities": ["a1"]
+    "activities": [
+      "Venusian Cloud Surfing: Ride the thick clouds of Venus using specially designed cloud-surfing equipment that can withstand extreme heat and pressure.",
+      "Volcanic Cave Exploration: Explore the labyrinthine network of volcanic caves and tunnels on Venus' surface, protected by advanced heat-resistant suits.",
+      "Floating Cities: Experience life in floating cities suspended in Venus' upper atmosphere, where conditions are more Earth-like and habitable.",
+      "Sulfuric Acid Kayaking: Brave the acidic rivers and lakes of Venus in acid-resistant kayaks for a unique kayaking adventure.",
+      "Venusian Jungle Trekking: Journey through the dense and exotic jungles of Venus, discovering unique plant and animal life.",
+      "Extreme Hiking on the High Plateaus: Hike across the scorching high plateaus of Venus, equipped with heat-resistant gear and oxygen masks."
+    ]
   },
   "Saturn": {
     "info": ["i1", "i2"],
-    "activities": ["a1"]
+    "activities": [
+      "Ring Touring: Take a tour through Saturn's stunning ring system using specially designed spacecraft with panoramic views.",
+      "Titanic Submersions: Dive into the methane and ethane seas of Saturn's largest moon, Titan, in advanced submersibles built for extreme conditions.",
+      "Gas Giant Balloon Rides: Soar high above Saturn's cloud tops in gas-filled balloons equipped with observation decks for breathtaking views of the planet.",
+      "Space Skydiving: Experience the ultimate thrill by skydiving from the outer reaches of Saturn's atmosphere, free-falling before deploying a parachute and returning to a spacecraft.",
+      "Enceladus Ice Caving: Explore the icy caverns and tunnels beneath the surface of Enceladus, another of Saturn's intriguing moons.",
+      "Saturnian Storm Chasing: Join an expedition to chase and study the massive storms that periodically rage across Saturn's atmosphere using advanced storm-chasing spacecraft."
+    ]
   },
   "Neptune": {
     "info": ["i1", "i2"],
-    "activities": ["a1"]
+    "activities": [
+      "Neptunian Submarine Expeditions: Explore the deep oceans of Neptune's moon Triton in advanced submersibles designed for the extreme cold and pressure.",
+      "Methane Iceberg Sailing: Navigate the methane icebergs that float on the icy seas of Triton, Neptune's largest moon.",
+      "Neptunian Windsurfing: Catch the powerful winds of Neptune's atmosphere while windsurfing on its vast blue clouds using specialized equipment.",
+      "Neptune's Aurora Safari: Witness the mesmerizing auroras that dance across Neptune's polar skies during guided aurora safaris.",
+      "Neptune's Deep Space Telescopes: Operate powerful telescopes stationed in Neptune's orbit to observe distant celestial objects and phenomena.",
+      "Neptune's Subsurface Cave Exploration: Delve into the mysterious caves and tunnels beneath Neptune's icy surface in search of unique geological formations and life forms."
+    ]
   },
   "Mars": {
     "info": ["i1", "i2"],
