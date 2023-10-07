@@ -37,8 +37,11 @@ input.visualization {
   width: 15%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  border: 0.3rem solid cyan;
   background-color: rgb(72, 68, 68);
+  border-image: linear-gradient(to right, #ff0000, #0000ff) 1;
+  border: 1px solid transparent;
+  background: linear-gradient(#4d3535, #fff) padding-box,
+    linear-gradient(60deg, #00f, #00e8ff) border-box;
   color: azure;
   text-align: center;
   font-size: 1rem;
