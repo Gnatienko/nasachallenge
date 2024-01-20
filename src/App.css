@@ -40,6 +40,7 @@ input.visualization {
     rgba(121, 45, 33, 1) linear-gradient(60deg, #792d21, #ffffff) border-box;
 }
 .structure {
+  z-index: 9999;
   cursor: pointer;
   position: absolute;
   aspect-ratio: 1 / 1;
